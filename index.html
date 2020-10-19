@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="list">
+        <div class="header"></div>
+        <h1>To-Do List</h1>
+            <button class="filter"></button>
+            <button class="filter-up"></button>
+            <ul class="tasks__list">
+                <li class="tasks__item" draggable="true">
+                    <button class="check"></button>
+                    <input type="text" class="input-text">
+                    <button class="delete"></button>
+                </li>
+            </ul>
+            <button class="btn" onclick="newElement()"><span class="plus">+</span> Добавить</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
